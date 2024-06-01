@@ -9,7 +9,10 @@ body {
 }
 
 #container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #puzzle-container {
@@ -43,10 +46,9 @@ body {
 .hidden {
     opacity: 0;
     pointer-events: none;
-
 }
 
-#shuffle-button{
+#shuffle-button {
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -56,7 +58,6 @@ body {
     color: white;
     cursor: pointer;
     margin-bottom: 10px;
-    
 }
 
 #message {
@@ -65,5 +66,27 @@ body {
     font-size: 1.5em;
     color: rgb(255, 255, 255);
     text-align: center;
+}
 
+
+#author {
+    display: inline;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #d40000;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#author p {
+    margin: 5px 0;
+    background-color: #ffffff;
+    border-radius: 25%;
+    padding: 1px;
+    margin: auto;
+}
+
+#author a {
+    color: blue;
+    text-decoration: underline;
 }
