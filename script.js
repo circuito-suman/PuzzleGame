@@ -76,6 +76,8 @@ function shuffle(array) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+    document.getElementById('message').innerText = '!Solve It!';
+
 }
 
 function renderPuzzle(piecesArray) {
@@ -269,7 +271,6 @@ function shufflePuzzle() {
     const piecesArray = Array.from(puzzleContainer.children);
     shuffle(piecesArray);
     renderPuzzle(piecesArray);
-    document.getElementById('message').innerText = '';
 
     
 }
