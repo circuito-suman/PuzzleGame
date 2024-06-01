@@ -36,7 +36,7 @@ Welcome to Puzzle Game! This is a simple puzzle game where you can solve puzzles
 
 ## 🙏 Acknowledgements
 
-Thank you for checking out this project! If you have any questions or suggestions, feel free to open an issue or reach out to me on social media. Happy solving puzzle! 💻✨
+Thank you for checking out this project! If you have any questions or suggestions, feel free to open an issue or reach out to me on social media. Happy puzzle solving! 💻✨
 
 ## About Me
 
