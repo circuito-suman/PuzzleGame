@@ -1,4 +1,4 @@
-const qrText = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+const qrText = 'https://www.youtube.com/shorts/41iWg91yFv0';
 const qrSize = 400;
 const pieces = 4;
 const pieceSize = qrSize / pieces;
