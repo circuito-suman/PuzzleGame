@@ -1,6 +1,6 @@
 const qrText = 'https://www.youtube.com/shorts/41iWg91yFv0';
 const qrSize = 400;
-const pieces = 4;
+const pieces = 3;
 const pieceSize = qrSize / pieces;
 let puzzleContainer, emptyX, emptyY;
 let imageURL;
