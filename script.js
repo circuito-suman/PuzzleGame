@@ -1,6 +1,6 @@
 const qrText = 'https://www.youtube.com/shorts/41iWg91yFv0';
 const qrSize = 400;
-const pieces = 3;
+const pieces = 4;
 const pieceSize = qrSize / pieces;
 let puzzleContainer, emptyX, emptyY;
 let imageURL;
@@ -195,8 +195,8 @@ function solvePuzzle() {
             if (position !== null) {
                 const { x, y } = position;
                 const piece = piecesArray.find(piece => parseInt(piece.dataset.x) === x && parseInt(piece.dataset.y) === y);
-                const correctX = index % pieces;
-                const correctY = Math.floor(index / pieces);
+                const correctX = index % 4;
+                const correctY = Math.floor(index / 4);
                 const targetX = correctX * pieceSize;
                 const targetY = correctY * pieceSize;
 
