@@ -195,8 +195,8 @@ function solvePuzzle() {
             if (position !== null) {
                 const { x, y } = position;
                 const piece = piecesArray.find(piece => parseInt(piece.dataset.x) === x && parseInt(piece.dataset.y) === y);
-                const correctX = index % 4;
-                const correctY = Math.floor(index / 4);
+                const correctX = index % pieces;
+                const correctY = Math.floor(index / pieces);
                 const targetX = correctX * pieceSize;
                 const targetY = correctY * pieceSize;
 
